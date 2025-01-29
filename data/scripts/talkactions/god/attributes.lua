@@ -1,4 +1,4 @@
-local itemFunctions = 1 {
+local itemFunctions =  {
 	["actionid"] = {
 		isActive = true,
 		targetFunction = function(item, target)
