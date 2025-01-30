@@ -6455,15 +6455,15 @@ GameStore.Categories = {
 	-- Tournament
 	{
 		icons = { "Category_Tournament.png" },
-		name = "Tournament",
+		name = "Custom Shop",
 		rookgaard = true,
-		subclasses = { "Tickets", "Exclusive Offers" },
+		subclasses = { "Tools", "Exclusive Offers" },
 	},
 	-- Tournament ~ Tickets
 	{
 		icons = { "Category_Tickets.png" },
-		parent = "Tournament",
-		name = "Tickets",
+		parent = "Custom Shop",
+		name = "Tools",
 		rookgaard = true,
 		offers = {
 			{
@@ -6477,7 +6477,7 @@ GameStore.Categories = {
 	{
 		icons = { "Category_ExclusiveOffers.png" },
 		name = "Exclusive Offers",
-		parent = "Tournament",
+		parent = "Custom Shop",
 		rookgaard = true,
 		state = GameStore.States.STATE_NONE,
 		offers = {
